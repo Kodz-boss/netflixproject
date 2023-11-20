@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url('dark-nature-pictures-sf5wu61v1au0kwfk.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.holder{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.log{
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.email{
+    width: 210px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border-top: 0px solid;
+    border-right: 0px solid;
+    border-left: 0px solid;
+    border-bottom: 2px solid darkgrey;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.password{
+    width: 210px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border-top: 0px solid;
+    border-right: 0px solid;
+    border-left: 0px solid;
+    border-bottom: 2px solid darkgrey;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.joined{
+    font-size: 13px;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.forget{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.right{
+    color: darkgrey;
+}
+
+.logi{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    margin-top: 20px;
+    border: 0 solid;
+}
+
+.logi:hover{
+    width: 180px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.don{
+    font-size: 13px;
+    margin-top: 20px;
+    color: darkgrey;
+}
+
+#passwordToggle {
+    position: relative;
+  }
+  #toggleBtn {
+    position: absolute;
+    right: 3px;
+    top: 36px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+.reg{
+    color: black;
+    text-decoration: none;
+}
+
+.pop{
+    /* width: 350px;
+    height: 300px; */
+    height: 0;
+    overflow-y: hidden;
+    background-color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.active{
+    width: 500px;
+    height: 400px;
+    overflow-y: visible;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pic{
+    background-image: url('../netflix-again/G03.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.suc{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.pro{
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.pp{
+    width: 50px;
+    height: 30px;
+    background-color: blue;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 500px){
+    .logi{
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+        width: 140px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        margin-top: 20px;
+        border: 0 solid;
+    }
+
+    .active{
+        width: 330px;
+        height: 400px;
+        overflow-y: visible;
+        background-color: white;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .pic{
+        background-image: url('G03.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+    }
+
+    .suc{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .pro{
+        font-size: 24px;
+        font-weight: 200;
+        /* margin-top: 20px; */
+    }
+    
+    .pp{
+        width: 50px;
+        height: 30px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+    }
+    
+    .col{
+        text-decoration: none;
+        color: white;
+    }
+}
